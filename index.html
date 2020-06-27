@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<div class="container">
+<div class="row justify-content-center">
+    
+    <div class="signup my-5 col-9">
+        
+        <div class="row">
+            <!------------------------------------------>
+
+            <div class="col-md-7 p-4">
+                <div class="form">
+                    <div class="form-group">
+                        <label for="">Name</label>
+                        <input type="text" id="name" class="form-control" autocomplete="off">
+                        <i class="far fa-user ico"></i>
+                        <p class="m-0 text-danger d-none name"> Pleas Enter Your Name.</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Email</label>
+                        <input type="email" id="email" class="form-control" autocomplete="off">
+                        <i class="fas fa-at ico"></i>
+                        <p class="m-0 text-danger d-none email"> Pleas Enter Your Email.</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Password</label>
+                        <input type="password" id="pass" class="form-control">
+                        <i class="fas fa-unlock ico"></i>
+                        <p class="m-0 text-danger d-none pass"> Pleas Enter Your Password.</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Re-Password</label>
+                        <input type="password" id="re-pass" class="form-control">
+                        <i id="ico" class="fas fa-undo ico"></i>
+                        <p class="m-0 text-danger d-none re-pass"> This Not Equal Password.</p>
+                    </div>
+                    <div class="m-or-f">
+                        <div class="custom-control custom-radio custom-control-inline male">
+                            <input type="radio" class="custom-control-input" id="maleRadio" name="radio">
+                            <label class="custom-control-label" for="maleRadio">Male</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline female">
+                            <input type="radio" class="custom-control-input" id="femaleRadio" name="radio" value="Male">
+                            <label class="custom-control-label" for="femaleRadio">Female</label>
+                        </div>
+                        <div class="recruitment mt-4 d-none">
+                            <select name="cars" class="custom-select">
+                                <option selected disabled>Your Recruitment</option>
+                                <option value="f">Finish</option>
+                                <option value="notf">Not Finished</option>
+                                
+                              </select>
+                        </div>
+
+                        <button type="button" class="btn btn-danger mt-4 d-block">Sign Up</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <!------------------------------------------------->
+
+            <div class="col-md-5 p-0">
+                <div class="about-form p-5">
+                    <h2>Sign Up</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Et incidunt quas, sit excepturi consequuntur error!
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="overlay p-5">
+            <ul class="list-group p-5 mt-5"></ul>
+            <i class="fas fa-arrow-right another"></i>
+        </div>
+    </div>
+    
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+<!------------------------------------------------>
+    <script src="./js/jQuery3.4.1.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/all.min.js"></script>
+    
+</body>
+</html>
